@@ -3,11 +3,14 @@ body {
   font-family: 'Segoe UI', sans-serif;
   margin: 0;
   padding: 0;
+  height: 100vh; /* 👈 altura completa de la ventana */
+  display: flex;
+  justify-content: center; /* 👈 centra horizontalmente */
+  align-items: center;     /* 👈 centra verticalmente */
 }
 
 .container {
   max-width: 600px;
-  margin: auto;
   padding: 2rem;
   background: rgba(255, 255, 255, 0.2);
   border-radius: 12px;
@@ -34,4 +37,3 @@ button {
 button:hover {
   background-color: #005fcc;
 }
-

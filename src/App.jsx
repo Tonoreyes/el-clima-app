@@ -35,7 +35,7 @@ function App() {
   return (
     <div className="container">
 
-      <h1>🌤️ Clima App</h1>
+      <h1>🌤️El Clima</h1>
 
       <input
         type="text"
